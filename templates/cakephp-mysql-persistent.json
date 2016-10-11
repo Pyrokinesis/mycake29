@@ -83,7 +83,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "${NAMESPACE}",
-              "name": "php:5.6"
+              "name": "php:7.0"
             },
             "env":  [
               {
@@ -430,7 +430,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/openshift/cakephp-ex.git"
+      "value": "https://github.com/democxt/travelargentina.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
@@ -446,7 +446,7 @@
       "name": "APPLICATION_DOMAIN",
       "displayName": "Application Hostname",
       "description": "The exposed hostname that will route to the CakePHP service, if left blank a value will be defaulted.",
-      "value": ""
+      "value": "php7.centos.certincloud.com"
     },
     {
       "name": "GITHUB_WEBHOOK_SECRET",
