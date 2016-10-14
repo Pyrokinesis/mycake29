@@ -430,7 +430,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with "CAKE and YOUR" application source code.",
       "required": true,
-      "value": "https://github.com/Pyrokinesis/cakephp-ex.git"
+      "value": "https://github.com/Pyrokinesis/mycake29.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
